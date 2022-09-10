@@ -1,6 +1,6 @@
 body{
     position:absolute;
-    width:1076px;
+    width:1126px;
     height:622px;
     left:422px;
     top:100px;
@@ -59,7 +59,7 @@ border-bottom-left-radius: 30px;
     position: absolute;
     width: 132px;
     height: 18px;
-    left: 72px;
+    left: 62px;
     top: 9px;
     font-family:'Inter';
     font-style: normal;
@@ -68,15 +68,15 @@ border-bottom-left-radius: 30px;
     line-height: 18px;
     color: #FFFFFF;
     flex: none;
-    order: 1;
+    order: 0;
     flex-grow: 0;
 }
 .number{
     position: absolute;
     width: 134px;
     height: 41px;
-    left: 45px;
-    top: 91px;
+    left: 30px;
+    top: 77px;
     font-family:'Inter';
     font-style: normal;
     font-weight: 500;
@@ -86,12 +86,12 @@ border-bottom-left-radius: 30px;
     align-items: center;
     color: #FFFFFF;
 }
-.discount{
+.discountforp{
     position: absolute;
     width: 37px;
     height: 11px;
     left: 210px;
-    top: 107px;
+    top: 97px;
     font-family:'Inter';
     font-style: normal;
     font-weight: 400;
@@ -106,7 +106,7 @@ border-bottom-left-radius: 30px;
     width: 25px;
     height: 22px;
     left: 210px;
-    top: 107px;
+    top: 97px;
     font-family:'Quicksand';
     font-style: normal;
     font-weight: 600;
@@ -120,7 +120,7 @@ border-bottom-left-radius: 30px;
     flex-grow: 0;
 
 }
- .discount{
+.discount{
     position: absolute;
     width: 265px;
     height: 145px;
@@ -180,7 +180,7 @@ border-bottom-left-radius: 30px;
     position: absolute;
     width: 50px;
     height: 14px;
-    left: 60px;
+    left: 55px;
     top: 265px;
     font-family:'Inter';
     font-style: normal;
@@ -194,6 +194,13 @@ border-bottom-left-radius: 30px;
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+.icon-Icons-2{
+    position: absolute;
+    top: 280px;
+    left: 11%;
+    width: 17px;
+    height: 17px;
 }
 .cat {
     position: absolute;
@@ -213,6 +220,11 @@ border-bottom-left-radius: 30px;
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+.icon-Icons{
+    position: absolute;
+    top: 315px;
+    left: 88px;
 }
 .wc{
     position: absolute;
@@ -271,11 +283,16 @@ border-bottom-left-radius: 30px;
     order: 1;
     flex-grow: 0;
 }
+.icon-Icons-3{
+    position: absolute;
+    top: 435px;
+    left: 37px;
+}
 .search {
     position: absolute;
     width: 201px;
     height: 41px;
-    left: 796px;
+    left: 926px;
     top: 16px;
     font-family:'Inter';
     font-style: normal;
@@ -291,10 +308,27 @@ border-bottom-left-radius: 30px;
     position:absolute;
     width: 164px;
     height:30px;
-    left: 766px;
+    left: 896px;
     top: 31px;
     border: 1px solid #a2a3a4;
     border-radius: 9.6px;
+}
+.icon-Extra-Icons{
+position: absolute;
+width: 14.8px;
+height: 14.8px; 
+top: 37px;
+left:906px;
+}
+.icon-healthicons_ui-user-profile-outline{
+    position: absolute;
+}
+.icon-Group{
+   position: absolute;
+   width: 80px;
+   height: 80px; 
+   left: 96%;
+   top: 37px;
 }
 .new{
     position: absolute;
@@ -440,3 +474,129 @@ border-bottom-left-radius: 30px;
         align-items: center;
         color: #FFFFFF; 
     }
+    .threebox{
+        position: absolute;
+        width: 177px;
+        height: 220px;
+        left: 730px;
+        top: 163px;
+        background: #3f444e;
+        border-radius:27px ;
+    }
+        .bracelets{
+            position: absolute;
+            width: 177px;
+            height: 143px;
+            left: 730px;
+            top: 163px;
+            border-top-right-radius: 27px;
+            border-top-left-radius:27px ;
+        }
+        .cb{
+            position: absolute;
+        width: 116px;
+        height: 14px;
+        left: 750px;
+        top: 320px;
+        font-family:'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        }
+        .threeprice{
+            position: absolute;
+        width: 19px;
+        height: 11px;
+        left: 750px;
+        top: 350px;
+        font-family:'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 11px;
+        display: flex;
+        align-items: center;
+        color: #a2a3a4;
+        }
+        .threesize{
+            position: absolute;
+            width: 24px;
+            height: 15px;
+            left: 840px;
+            top: 340px;
+            font-family:'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF; 
+        }
+        .fourbox{
+            position: absolute;
+            width: 177px;
+            height: 220px;
+            left: 920px;
+            top: 163px;
+            background: #3f444e;
+            border-radius:27px ;
+        }
+            .adidas{
+                position: absolute;
+                width: 177px;
+                height: 143px;
+                left: 920px;
+                top: 163px;
+                border-top-right-radius: 27px;
+                border-top-left-radius:27px ;
+            }
+            .sadidas{
+                position: absolute;
+            width: 116px;
+            height: 14px;
+            left: 940px;
+            top: 320px;
+            font-family:'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            }
+            .fourprice{
+                position: absolute;
+            width: 19px;
+            height: 11px;
+            left: 940px;
+            top: 350px;
+            font-family:'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 9px;
+            line-height: 11px;
+            display: flex;
+            align-items: center;
+            color: #a2a3a4;
+            }
+            .foursize{
+                position: absolute;
+                width: 24px;
+                height: 15px;
+                left: 1040px;
+                top: 340px;
+                font-family:'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 15px;
+                display: flex;
+                align-items: center;
+                color: #FFFFFF; 
+            }
